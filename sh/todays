@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# origin: ${utils}/todays
+#
+# ~/.todays/yyyy-mm-dd/ 以下にバックアップを作る。
+#
+# unreleased:
+# * 引数がないときは todays-ls として動作するっつうのは？
+#
+
+if [ $# -eq 0 ]; then
+    echo "usage: $0 dir1 dir2 ..."
+    echo 引数がないときは todays-ls として動作するのはどうか？
+    exit 1
+fi
+
+DEST=~/.todays/`date +%F`
+mkdir -p ${DEST}
+tar -cfh - $@ | (cd ${DEST} && tar xf -)
