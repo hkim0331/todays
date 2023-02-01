@@ -16,4 +16,4 @@ fi
 
 DEST=~/.todays/`date +%F`
 mkdir -p ${DEST}
-tar -cfh - $@ | (cd ${DEST} && tar xf -)
+tar cfh - $@ | (cd ${DEST} && tar xf -)
