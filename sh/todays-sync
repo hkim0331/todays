@@ -1,0 +1,7 @@
+#!/bin/sh
+# under construction
+# how to ignore fetching remote rsync.sh properly?
+
+cd ~/sd/todays
+exec ./rsync.sh
+
