@@ -2,8 +2,9 @@
 
 ## Unreleased
 - Rewrite shell scripts with babashka.
-- ignore rsync.sh script correctly.
-- todays-sync command.
+
+## 0.1.2 - 2023-03-01
+- `start-from-m24.sh` and `start-from-m64.sh` scripts.
 
 ## 0.1.1 - 2023-02-13
 - bidirectional rsync? by;
