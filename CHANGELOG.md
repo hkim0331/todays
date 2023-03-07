@@ -3,6 +3,10 @@
 ## Unreleased
 - rewrite shell scripts with babashka
 
+## 0.2.5 - 2023-03-07
+- refactor
+- forgot to install todays, todays-ls and todays-clone by `bb install`.
+
 ## 0.2.4 - 2023-03-07
 - diverged?
 
