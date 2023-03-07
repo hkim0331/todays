@@ -3,4 +3,5 @@
  :min-bb-version "0.4.0"
 
  :tasks
- {sh}}
+ {:requires ([babashka.fs :as fs])
+  install (shell "install -m 0700 sync.sh " (fs/expand-home "~/.todays"))}}
