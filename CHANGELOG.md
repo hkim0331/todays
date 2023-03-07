@@ -4,6 +4,7 @@
 - Rewrite shell scripts with babashka.
 
 ## 0.2.4 - 2023-03-07
+- diverged?
 
 ## 0.2.3 - 2023-03-07
 - sync.sh: bidirectional rsync between m24 and m64.
