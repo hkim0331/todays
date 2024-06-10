@@ -16,4 +16,5 @@ fi
 
 DEST=~/.todays/`date +%F`
 mkdir -p ${DEST}
-tar cfh - $@ | (cd ${DEST} && tar xf -)
+gtar --exclude=.lsp --exclude=.clj-kondo -cf - $@ | (cd ${DEST} && gtar xf -)
+rsync -a ${DEST} ~/Desktop/
