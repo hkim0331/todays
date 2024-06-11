@@ -9,7 +9,7 @@
 # - behave as `todays-ls` when no arguments given?
 #
 
-VERSION=V0.3.1-SNAPSHOT
+VERSION=v0.3.40
 
 if [ $# -eq 0 ]; then
     echo "usage: $0 dir1 dir2 ..."
