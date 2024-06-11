@@ -2,6 +2,11 @@
 
 ## Unreleased
 - Rewrite shell scripts with babashka.
+- fixme: `todays symlink` only copies the link. must backup dir.
+
+## v0.3-SNAPSHOT
+- it is no good to do everything with clojure(babashka).
+  respect Makefile.
 
 ## 0.2.5 - 2023-03-07
 - refactor
