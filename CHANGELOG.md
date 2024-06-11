@@ -1,7 +1,13 @@
 # Changelog
 
 ## Unreleased
-- rewrite shell scripts with babashka
+
+## v0.3.40 / 2024-06-11
+gtar's arguments differs from /usr/bin/tar's.
+- it is no good to do everything with clojure(babashka).
+  respect Makefile.
+### Removed
+- removed `bb.edn` and `bb`.
 
 ## 0.2.5 - 2023-03-07
 - refactor

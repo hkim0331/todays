@@ -1,3 +1,7 @@
+*.class
+*.jar
+*.swp
+*~
 .calva/output-window/
 .classpath
 .clj-kondo/.cache
@@ -18,10 +22,6 @@
 .socket-repl-port
 .sw*
 .vscode
-*.class
-*.jar
-*.swp
-*~
 /checkouts
 /classes
 /target
