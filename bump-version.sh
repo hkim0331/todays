@@ -17,7 +17,7 @@ ${SED} -i -e "/SNAPSHOT/c\
 ## ${VER} / ${TODAY}" CHANGELOG.md
 
 ${SED} -i.bak -e "/^VERSION=/c\
-VERSION=$VER" sh/todays
+VERSION=$VER" src/todays
 
 ## package.json
 # ${SED} -i.bak -e "/\"version\":/c\
